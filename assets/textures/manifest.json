@@ -1,0 +1,254 @@
+{
+ "grassAlbedo": {
+  "file": "grassAlbedo.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "grassNormal": {
+  "file": "grassNormal.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "dirtAlbedo": {
+  "file": "dirtAlbedo.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "dirtNormal": {
+  "file": "dirtNormal.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "rockAlbedo": {
+  "file": "rockAlbedo.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "rockNormal": {
+  "file": "rockNormal.webp",
+  "w": 512,
+  "h": 512,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "barkAlbedo": {
+  "file": "barkAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "barkNormal": {
+  "file": "barkNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "leafOak": {
+  "file": "leafOak.png",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": false,
+  "mip": true,
+  "aniso": 8
+ },
+ "leafBush": {
+  "file": "leafBush.png",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": false,
+  "mip": true,
+  "aniso": 8
+ },
+ "leafPine": {
+  "file": "leafPine.png",
+  "w": 512,
+  "h": 512,
+  "srgb": true,
+  "repeat": false,
+  "mip": true,
+  "aniso": 8
+ },
+ "concreteAlbedo": {
+  "file": "concreteAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "concreteNormal": {
+  "file": "concreteNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "woodAlbedo": {
+  "file": "woodAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "woodNormal": {
+  "file": "woodNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "sandbagAlbedo": {
+  "file": "sandbagAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "sandbagNormal": {
+  "file": "sandbagNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "metalAlbedo": {
+  "file": "metalAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "metalNormal": {
+  "file": "metalNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "camoAlbedo": {
+  "file": "camoAlbedo.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "gunRough": {
+  "file": "gunRough.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "gripNormal": {
+  "file": "gripNormal.webp",
+  "w": 256,
+  "h": 256,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "bladeRough": {
+  "file": "bladeRough.webp",
+  "w": 128,
+  "h": 128,
+  "srgb": false,
+  "repeat": true,
+  "mip": true,
+  "aniso": 8
+ },
+ "smoke": {
+  "file": "smoke.png",
+  "w": 128,
+  "h": 128,
+  "srgb": true,
+  "repeat": false,
+  "mip": false,
+  "aniso": 8
+ },
+ "spark": {
+  "file": "spark.png",
+  "w": 64,
+  "h": 64,
+  "srgb": true,
+  "repeat": false,
+  "mip": false,
+  "aniso": 8
+ },
+ "flash": {
+  "file": "flash.png",
+  "w": 256,
+  "h": 256,
+  "srgb": true,
+  "repeat": false,
+  "mip": false,
+  "aniso": 8
+ },
+ "dust": {
+  "file": "dust.png",
+  "w": 64,
+  "h": 64,
+  "srgb": true,
+  "repeat": false,
+  "mip": false,
+  "aniso": 8
+ },
+ "holeDecal": {
+  "file": "holeDecal.png",
+  "w": 64,
+  "h": 64,
+  "srgb": true,
+  "repeat": false,
+  "mip": false,
+  "aniso": 8
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "n": 449,
+ "hash": "e3805c4b94d4588d",
+ "layout": [
+  "height f32",
+  "splat u8x4",
+  "roadD f32",
+  "trenchD f32"
+ ],
+ "baked": "2026-10-26T18:21:51.297Z"
+}

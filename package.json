@@ -1,0 +1,20 @@
+{
+  "name": "hollow-ridge",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Hollow Ridge - browser FPS with LAN multiplayer. No npm dependencies (three.js r169 is bundled in vendor/).",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs --check",
+    "bake": "node tools/bake-textures.mjs && node tools/bake-terrain.mjs && node build.mjs --check",
+    "host": "node server/index.mjs",
+    "test": "node test/mp-protocol.test.mjs",
+    "test:sp": "node test/sp-regression.mjs",
+    "test:shop": "node test/shop-persist.mjs",
+    "test:lan": "node test/mp-three-clients.mjs",
+    "bench": "node test/perf-cdp.mjs",
+    "bench:load": "node test/load-bench.mjs",
+    "test:parity": "node test/tex-parity.mjs && node test/terrain-parity.mjs && node test/grass-window.mjs",
+    "test:hitches": "node test/hitches.mjs --trace && node test/hitches-events.mjs"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_readme": "Single source of truth for balance. Edit, then run `node build.mjs` (client) and restart the LAN server (server reads this file at start-up). Rewards are decided by the server in multiplayer, so the HOST's copy of this file is the one that counts for kill / streak / match rewards.",
+  "version": "1.1.0",
+  "protocol": 1,
+
+  "economy": {
+    "currencyName": "Hollow Credits",
+    "currencyShort": "HC",
+    "startingBalance": 0,
+    "rewards": {
+      "kill": 100,
+      "headshotBonus": 0,
+      "knifeBonus": 0,
+      "streak": { "3": 150, "5": 300 },
+      "matchComplete": 100
+    },
+    "rarityPrices": { "common": 100, "uncommon": 250, "rare": 500, "epic": 1000, "legendary": 2000 },
+    "priceOverrides": {}
+  },
+
+  "weapons": {
+    "rifle": { "damage": 28, "headMult": 2.6, "limbMult": 0.8, "rpm": 700, "mag": 30, "reserve": 155, "range": 320, "reloadTactical": 2.45, "reloadEmpty": 3.25 },
+    "knife": { "slashDamage": 55, "stabDamage": 125, "slashRange": 2.2, "stabRange": 2.7 }
+  },
+
+  "match": {
+    "maxPlayers": 8,
+    "durationOptions": [3, 5, 10, 15],
+    "killLimitOptions": [10, 20, 30, 50],
+    "defaults": { "duration": 10, "killLimit": 20, "maxPlayers": 8 },
+    "countdown": 5,
+    "respawnDelay": 3.5,
+    "spawnProtection": 2.5,
+    "resultsHold": 20,
+    "healthRegenDelay": 6,
+    "healthRegenPerSec": 14,
+    "resupplyCooldown": 20,
+    "resupplyRadius": 3.4,
+    "minPlayersForReward": 2
+  },
+
+  "net": {
+    "defaultPort": 7777,
+    "snapshotHz": 20,
+    "clientStateHz": 20,
+    "interpDelayMs": 110,
+    "timeoutMs": 10000
+  },
+
+  "maps": [
+    { "id": "ridge-day",    "name": "Hollow Ridge · Clear Noon",      "hour": 11.5, "weather": "clear",  "intensity": 0.35 },
+    { "id": "ridge-golden", "name": "Hollow Ridge · Golden Hour",     "hour": 17.7, "weather": "cloudy", "intensity": 0.35 },
+    { "id": "ridge-rain",   "name": "Hollow Ridge · Rain Front",      "hour": 14.0, "weather": "rain",   "intensity": 0.7 },
+    { "id": "ridge-fog",    "name": "Hollow Ridge · Dawn Fog",        "hour": 6.4,  "weather": "fog",    "intensity": 0.55 },
+    { "id": "ridge-night",  "name": "Hollow Ridge · Moonlit Night",   "hour": 0.0,  "weather": "clear",  "intensity": 0.2 }
+  ],
+
+  "spawns": [
+    [-33, -62], [-9, -57], [15, -55], [43, -58], [67, -60], [-57, -62], [-17, -92], [33, -95],
+    [-86, -88], [104, -88], [-100, -62], [120, -78],
+    [0, 84], [-18, 74], [20, 72], [0, 60], [-40, 30], [45, 25], [-70, 0], [75, -5]
+  ]
+}
